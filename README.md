@@ -7,4 +7,5 @@ return 0;
 }
 void display()
 {printf("hello world");
+printf("\n welcome");
 }
