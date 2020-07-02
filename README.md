@@ -1,11 +1,19 @@
-# hello-world
+
 #include<stdio.h>
-void display();
+void input(char*);
+void display(char*);
 int main()
-{display();
+{char str[10];
+input(&str);
+display(&str);
 return 0;
 }
-void display()
-{printf("hello world");
-printf("\n welcome");
+void input(char *s)
+{printf("\n enter a string :");
+scanf("%s", s);
 }
+void display(char *s)
+{
+printf("\n %s",s);
+}
+
